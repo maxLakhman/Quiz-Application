@@ -46,15 +46,18 @@ def ask_question(question, alternatives):
         return 0
 
 def run_quiz():
+    #first, prepare the questions
     questions = prepare_questions(
         QUESTIONS, num_questions=NUM_QUESTIONS_PER_QUIZ
     )
 
+    #then, go through a loop and for each element in the loop, ask a different question in the list of q's
     num_correct = 0
     for num, (question, alternatives) in enumerate(questions, start=1):
         print(f"\nQuestion {num}:")
         num_correct += ask_question(question, alternatives)
 
+    #tell the user how they did when the quiz is finished
     print(f"\nYou got {num_correct} correct out of {num} questions")
 
 def main():

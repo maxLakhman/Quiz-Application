@@ -27,7 +27,9 @@ def get_answer(question, alternatives):
         print(f"Please answer one of {', '.join(labeled_alternatives)}")
 
     return labeled_alternatives[answer_label]
+
 def prepare_questions(questions, num_questions):
+
     num_questions = min(num_questions, len(questions))
     return random.sample(list(questions.items()), k=num_questions)
 
@@ -57,3 +59,6 @@ def run_quiz():
 
 def main():
     run_quiz()
+
+if __name__ == "__main__":
+        main()
