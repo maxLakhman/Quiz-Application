@@ -2,6 +2,8 @@ from string import ascii_lowercase
 import random
 
 NUM_QUESTIONS_PER_QUIZ = 5
+
+#in this data structure, { question : [list of possible answers to question]
 QUESTIONS = {
     "What's the official name of the := operator": [
         "Assignment expression",
