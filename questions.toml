@@ -1,0 +1,66 @@
+# questions.toml
+[[questions]]
+question = "What is the difference between call by reference and call by value"
+answer = "Call by ref passes a pointer to the data, value passes the actual data"
+alternatives = ["None", "Call by value passes a pointer, call by ref passes the data", "They are the same"]
+
+[[questions]]
+question = "Which built-in function can get information from the user"
+answer = "input"
+alternatives = ["get", "print", "write"]
+
+[[questions]]
+question = "What's the purpose of the built-in zip() function"
+answer = "To iterate over two or more sequences at the same time"
+alternatives = [
+    "To combine several strings into one",
+    "To compress several files into one archive",
+    "To get information from the user",
+]
+
+[[questions]]
+question = "What does dict.get(key) return if key isn't found in dict"
+answer = "None"
+alternatives = ["key", "True", "False"]
+
+[[questions]]
+question = "How do you iterate over both indices and elements in an iterable"
+answer = "enumerate(iterable)"
+alternatives = [
+    "enumerate(iterable, start=1)",
+    "range(iterable)",
+    "range(iterable, start=1)",
+]
+
+[[questions]]
+question = "What's the official name of the := operator"
+answer = "Assignment expression"
+alternatives = ["Named expression", "Walrus operator", "Colon equals operator"]
+
+[[questions]]
+question = "What's one effect of calling random.seed(42)"
+answer = "The random numbers are reproducible."
+alternatives = [
+    "The random numbers are more random.",
+    "The computer clock is reset.",
+    "The first random number is always 42.",
+]
+
+[[questions]]
+question = "When does __name__ == '__main__' equal True in a Python file"
+answer = "When the file is run as a script"
+alternatives = [
+    "When the file is imported as a module",
+    "When the file has a valid name",
+    "When the file only has one function",
+]
+
+[[questions]]
+question = "What is a TOML file"
+answer = "a way of representing data, sort of like a JSOL file"
+alternatives = ["It doesnt exist", "an executable file", "A script"]
+
+[[questions]]
+question = "What seperates a hashmap from a dictionary"
+answer = "Hash functions which decide which 'bucket' to place the data in"
+alternatives = ["No difference in any language", "Dictionaries are faster in every language", "Hashmaps are not a valid data structure"]
