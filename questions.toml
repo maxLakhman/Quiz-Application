@@ -64,3 +64,15 @@ alternatives = ["It doesnt exist", "an executable file", "A script"]
 question = "What seperates a hashmap from a dictionary"
 answer = "Hash functions which decide which 'bucket' to place the data in"
 alternatives = ["No difference in any language", "Dictionaries are faster in every language", "Hashmaps are not a valid data structure"]
+
+[[interview_questions]]
+question = "What is a set?"
+answer = "An unordered collection with no duplicates"
+alternatives = ["An ordered collection with duplicates allowed", "A collection of key-value pairs", "A mutable collection that allows duplicates"]
+
+
+[[interview_questions]]
+question = "What is a tuple?"
+answer = "An immutable list, used with (). Index and count methods work on these"
+alternatives = ["A mutable list, used with []", "A collection of key-value pairs", "A mutable collection that allows duplicates"]
+
